@@ -5,58 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Step</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <h3 class="title">Therapeutical Pharmacy</h3>
-            <ul class="links">
-                <li><a href="#"> Struggles</a></li>
-                <li><a href="#"> Advice</a></li>
-                <li><a href="#"> About</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="combiner">
+    <div id="main-header">
+            <div class="container">
+                <h2 id="title">Therapeutical Pharmacy</h2>
+                <nav id="navbar">
+                    <ul>
+                        <li><a href="#"> Struggles</a></li>
+                        <li><a href="#"> Advice</a></li>
+                        <li><a href="#"> About</a></li>  
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
     <main>
-        <section class="sec-1">
-            <h1 class="intro">
-                An apothecary for shackled minds
-            </h1>
-            <p class="description">
-                Our online apothecary offers a curated collection of therapeutic resources, expert guidance, and a compassionate community, all dedicated to helping you break free from the chains of psychological challenges. Discover the elixir of self-discovery, healing, and empowerment as you embark on your journey towards a healthier, more liberated mind.
-            </p>
-            <button class="sign-up">
-                Sign Up
-            </button>
-            <img src="images/deathconsciousness.jpg" alt="Death Of Marat Painting">
+        <div class="combiner">
+            <section id="sec-1">
+                <div class="section-container-1">
+                    <h1 id="intro">
+                        An apothecary for <br>shackled minds
+                    </h1>
+                    <p class="description">
+                        Our online apothecary offers a curated collection of therapeutic resources, expert guidance, and a compassionate community, all dedicated to helping you break free from the chains of psychological challenges. Discover the elixir of self-discovery, healing, and empowerment as you embark on your journey towards a healthier, more liberated mind.
+                    </p>
+                    <button type="button">
+                        Sign Up
+                    </button>
+                </div>
+                <img src="images/deathconsciousness.jpg" alt="Death Of Marat Painting">
+            </section>
+        </div>
+        <section id="sec-2">
+            <div class="traits">
+                Cultivatable Traits
+            </div>
+            <div class="section-container-2">
+                <div class="couple">
+                    <img src="images/traits/drama.png" alt="Adaptability">
+                    <p class="couple-p">Adaptability fosters stability in the face of life's transitions and challenges.</p>
+                </div>
+                <div class="couple">
+                    <img src="images/traits/volition.png" alt="Volition">
+                    <p class="couple-p">Volition empowers you to set goals and make purposeful decisions.</p>
+                </div>
+                <div class="couple">
+                    <img src="images/traits/resilience.png" alt="Resilience">
+                    <p class="couple-p">Resilience helps you bounce back from life's challenges.</p>
+                </div>
+                <div class="couple">
+                    <img src="images/traits/composure.png" alt="Composure">
+                    <p class="couple-p">Composure helps you stay calm and make clear decisions in challenging situations.</p>
+                </div>
+            </div>
         </section>
-        <section class="sec-2">
-            <div class="couple">
-                <img src="images/traits/drama.png" alt="Adaptability">
-                <p class="couple-p">Adaptability fosters stability in the face of life's transitions and challenges.</p>
-            </div>
-            <div class="couple">
-                <img src="images/traits/volition.png" alt="Volition">
-                <p class="couple-p">Volition empowers you to set goals and make purposeful decisions.</p>
-            </div>
-            <div class="couple">
-                <img src="images/traits/resilience.png" alt="Resilience">
-                <p class="couple-p">Resilience helps you bounce back from life's challenges.</p>
-            </div>
-            <div class="couple">
-                <img src="images/traits/composure.png" alt="Composure">
-                <p class="couple-p">Composure helps you stay calm and make clear decisions in challenging situations.</p>
-            </div>
-        </section>
-        <section class="sec-3">
+        <section id="sec-3">
             <blockquote>
                 <p>In the journey towards psychological stability, remember that the strength to break free from life's shackles often lies within the depths of your own mind.</p>
-                <figcaption>- GreatLoveV</figcaption>
+                <figcaption>- Visionary</figcaption>
             </blockquote>
         </section>
-        <section class="sec-4">
-            <h3 class="calltoaction"> It's your time to shine</h3>
-            <p>Sign up for our recovery program by clicking that button over there!!</p>
+        <section id="sec-4">
+            <div>
+                <h3 class="calltoaction"> It's your time to shine!</h3>
+                <p>Sign up for our recovery program by clicking that button over there!!</p>
+            </div>
+            <button type="button">
+                Sign up
+            </button>
         </section>
     </main>
     <footer>
